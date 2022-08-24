@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>FLVoterData</Name>
+  <Repository>awhitworth06/flvoterdata</Repository>
+  <Registry>awhitworth06/flvoterdata:latest</Registry>
+  <Network>bridge</Network>
+  <Privileged>false</Privileged>
+  <Overview>Site for downloading Florida voter data.</Overview>
+  <Category>Other:</Category>
+  <WebUI>http://[IP]:[PORT:80]/</WebUI>
+  <Icon>https://raw.githubusercontent.com/awhitworth06/images/master/flvoterdata_icon.png</Icon>
+  <Config Name="Host Port 1" Target="80" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8083</Config>
+</Container>
